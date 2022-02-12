@@ -4,8 +4,20 @@
  * Exemple : [1, 2, 3] et ["apple", "orange", "banana"] renverra : [1, "apple", 2, "orange", 3, "banana"]
  */
 function combine(tableau1, tableau2) {
-
+    let Table = []; 
+    let x = 0; 
+    if (tableau1.length !== tableau2.length) 
+    while (x < tableau1.length) {
+        Table[x * 2] = tableau1[x]; 
+        Table[x * 2 + 1] = tableau2[x]; 
+        x++; 
+    }
+    return
 }
+let tableau1 = [1, 2, 3]; 
+let tableau2 = ['pomme', 'orange', 'banane']; 
+
+console.log(combine(tableau1, tableau2));
 
 /**
  * Programmer une fonction prenant en argument un tableau d'éléments et une valeur offset, et qui renvoie un tableau avec les valeurs du tableau en argument décalées de la valeur
@@ -14,8 +26,11 @@ function combine(tableau1, tableau2) {
  * Par exemple : rotate([1, 2, 3, 4, 5], 2) renverra [4, 5, 1, 2, 3] 
  */
 function rotate(tableau, offset) {
+    let Table = []; 
+    let x = 0; 
+    while (x < tableau1.length)
 
-}
+console.log(rotate(tableau, offset));
 
 /**
  * Suite de Syracuse
@@ -29,5 +44,6 @@ function rotate(tableau, offset) {
  * Pour 1, la suite sera : [1, 4, 2, 1, 4, 2, 1, 4, 2, 1]
  */
 function syracuse(nombre) {
-
+    let 
 }
+console.log(syracuse(nombre));

@@ -14,7 +14,7 @@ function signe(nombre) {
     }
 }
 
-console.log(signe(0))
+console.log(signe(0));
 
 /**
  * Programmer une fonction prenant en argument un tableau de nombres, et qui renvoie un tableau ne contenant que les nombres pairs.
@@ -35,4 +35,4 @@ function nombresPairs(nombres) {
 }
 let MonTableau = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]; 
 
-console.log(nombresPairs(MonTableau))
+console.log(nombresPairs(MonTableau));
